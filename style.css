@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+
+p{
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    color: #00fff2;
+    font-size: 48px;
+    box-shadow: inset 2px 3px 4px rgba(255, 255, 255, .1),
+                2px 3px 4px rgba(0, 0, 0, .4); 
+}
+
